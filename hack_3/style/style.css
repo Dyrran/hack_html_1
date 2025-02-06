@@ -1,0 +1,47 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+body {
+    margin: 0px;
+}
+
+.block-top {
+    width: 100%;
+    height: 150px;
+    background-color: var(--bg-blue);
+}
+
+.block-banner {
+    height: 250px;
+    background-color: var(--bg-wine);
+}
+
+.block-p-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 10% 25px 10%;
+}
+
+.block-p-wide {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    background-color: var(--bg-wine);
+}
+
+.block-p-half {
+    width: 49.5%;
+    height: 100px;
+    margin-top: 15px;
+    background-color: var(--bg-wine);
+}
+
+.block-bottom {
+    margin: 15px 2% 10px 2%;
+    background-color: var(--bg-wine);
+    height: 80px;
+}
