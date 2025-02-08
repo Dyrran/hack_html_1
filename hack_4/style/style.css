@@ -1,0 +1,124 @@
+.header-line-container {
+    width: 100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.header-line {
+    stroke: black;
+    stroke-width: 8px;
+    stroke-linecap: round;
+}
+
+.promo-heading {
+    text-align: center;
+}
+
+.ph-1 {
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.ph-2 {
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 12px;
+    line-height: 60px;
+    margin: 20px;
+    font-weight: 800;
+    font-size: 110px;
+    color: #B88940;
+}
+
+.ph-3 {
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 1000;
+    line-height: 60px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    color: black;
+}
+
+.ph-4 {
+    font-family: "Catamaran", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.gallery-container {
+    position: relative;
+    margin: 150px 40px 150px 40px;
+}
+
+.gc-background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 8%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;;
+    
+}
+
+.gc-b-bar {
+    height: 8%;
+    background-color: #FFBD59;
+    margin-bottom: 3%;
+}
+
+.gc-photoroll {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+}
+
+.gc-p-photocard {
+    width: 20%;
+    margin: 0px 10px;
+}
+
+.gc-pc-photo {
+    width: 100%;
+}
+
+.gc-pc-text {
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.promo-bottom {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.pb-h1 {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #B88940;
+    letter-spacing: 2px;
+}
+
+.pb-p1 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    line-height: 20px;
+}
