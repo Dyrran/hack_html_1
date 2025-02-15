@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+p {
+    font-family: "Arimo", Arial, sans-serif;
+}
+
+.header-left {
+    width: 50%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.header-right {
+    width: 50%;
+    margin-right: 100px;
+    text-align: right;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.header-title {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.header-subtitle {
+    width: 100%;
+}
+
+/* Elaborando... */
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+
+/* Elaborando... */
+#banner-img {
+    width: 100%;
+}
+
+.banner-overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    padding-left: 50px;
+    height: 100%;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* margin-top: 300px; */
+}
+
+.bt-title {
+    background-color: #00BF63;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: fit-content;
+    color: white;
+    line-height: 80px;
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.bt-subtitle {
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    color: white;
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+@media (max-width: 750px) {
+    .bt-title {
+        line-height: 26px;
+        font-size: 16px;
+        margin: 2px 0px;
+        padding-left: 25px;
+    }
+    .bt-subtitle {
+        font-size: 8px;
+        margin: 1px 0px;
+        padding-left: 25px;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1299px) {
+    .bt-title {
+        line-height: 40px;
+        font-size: 30px;
+        margin: 5px 0px;
+    }
+    .bt-subtitle {
+        font-size: 12px;
+        margin: 2px 0px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .bt-title {
+        line-height: 80px;
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+    .bt-subtitle {
+        font-size: 24px;
+        margin: 5px 0px;
+    }
+}
