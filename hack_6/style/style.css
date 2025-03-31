@@ -1,5 +1,6 @@
 body {
     font-family: Inter, Arial;
+    margin: 0px;
 }
 
 .banner {
@@ -81,4 +82,42 @@ body {
     font-weight: 800;
     color: white;
     margin: 0px;
+}
+
+.gallery {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin-left: 12.5%
+}
+
+.gallery-image {
+    object-fit: contain;
+    width: 200px;
+}
+
+.gc-product-title {
+    margin-bottom: 0px;
+}
+
+.gc-price-compare {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.gc-price-compare > p {
+    width: 50%;
+}
+
+.gc-price-compare > p > s {
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
 }
